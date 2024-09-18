@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #252836;
+    overflow-x: hidden;
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    padding-top: 25px;
+}
+
+.header__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.header__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #e0e6e9;
+}
+
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #393c49;
+    padding: 14px;
+    background-color: #2d303e;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #abbbc2;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.items {
+    margin-bottom: 80px;
+    padding-top: 114px;
+    width: 192px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    background-color: #1f1d2b;
+    text-align: center;
+    position: relative;
+}
+
+.tab_sec {
+    padding-top: 100px;
+}
+
+.btn {
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: white;
+    background: none;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 150px;
+}
+
+.item__title {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 130%;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.item__price {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.item__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #abbbc2;
+}
+
+.item__img {
+    border-radius: 50%;
+}
+
+.item__img_block {
+    width: 132px;
+    position: absolute;
+    top: -15%;
+    left: 16%;
+}
