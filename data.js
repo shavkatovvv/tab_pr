@@ -21,3 +21,6 @@ export const getdataContent = async (path) => {
         
     }
 }
+
+
+

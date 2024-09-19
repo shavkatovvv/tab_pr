@@ -112,6 +112,19 @@ body {
     position: relative;
 }
 
+.itemss {
+    margin-bottom: 80px;
+    padding-top: 114px;
+    width: 192px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    background-color: rgb(15, 70, 51);
+    text-align: center;
+    position: relative;
+}
+
 .tab_sec {
     padding-top: 100px;
 }
@@ -164,4 +177,50 @@ body {
     position: absolute;
     top: -15%;
     left: 16%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cost {
+    width: 410px;
+    border-radius: 8px;
+    background-color: #1f1d2b;
+    padding: 24px;
+    height: 100%;
+}
+
+.cost__block {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.link__st {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #ea7c69;
+    border-radius: 8px;
+    border: 1px solid #393c49;
+    padding: 7px 12px;
+    background-color: #1f1d2b;
+}
+
+.btn__list {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn__block {
+    margin-bottom: 70px;
+}
+
+.total-price {
+    padding-bottom: 100px;
 }
